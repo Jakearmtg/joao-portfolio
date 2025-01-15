@@ -1,0 +1,24 @@
+.about-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20%;
+  padding-bottom: 10%;
+  gap: 4px;
+  width: fit-content;
+}
+
+.full {
+  background-color: red;
+  background-image: linear-gradient(45deg, #184e68, #57ca85);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
